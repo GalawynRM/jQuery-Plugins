@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/base/jquery-ui.css">
+
+    <script type="text/javascript" src="../jQuery-Anchor/jquery.anchor.js"></script>
+
+    <script type="text/javascript">
+       $(function(){
+
+           $("a[name]").each(function(){
+               var html = $(this).html();
+               var name = "#"+$(this).attr("name");
+               $("ul.links").append($("<li class='link'><a href='"+name+"'>"+html+"</a></li>"));
+           });
+           $("a[name]").html("");
+
+           $("body").anchor({
+               highlightedColor:"#ffffaa"
+           });
+       });
+    </script>
+</head>
+
+<body>
+<ul class="links">
+
+</ul>
+<div class="page">
+    <p id="p-1">
+        <a name="p-1">Paragraph 1</a>
+        <span class="title">Paragraph 1</span>
+        <span>Lorem ipsum dolor sit amet liber, ipsum esse gubergren clita aliquyam tempor et ea, tempor amet accusam augue lorem, duis sit dolore invidunt facilisi ut duo rebum, zzril luptatum ipsum et, stet ipsum eos takimata cum no hendrerit vero, ipsum feugait consetetur sanctus stet clita, autem aliquam ea nulla dolor eros eirmod stet.</span>
+        <span>Magna vero, nam et nonumy elitr consectetuer vel feugiat, gubergren sed autem in diam velit duis diam voluptua, et amet takimata amet rebum rebum feugait gubergren, clita nonumy gubergren.</span>
+        <span>Lorem magna est ex labore voluptua sed, justo tempor diam dolor duo feugait amet ea, erat gubergren duo erat ipsum dolor dolor invidunt gubergren, vel luptatum amet dolore.</span>
+        <span>Eros clita, illum at duo sed duis wisi et justo, takimata ea hendrerit voluptua sit at et ad dolor, elitr consetetur ipsum zzril erat invidunt tincidunt, amet nonumy in zzril sit vel consectetuer, magna hendrerit sit rebum erat vel, ullamcorper est takimata.</span>
+
+    </p>
+    <p id="p-2">
+        <a name="p-2">Paragraph 2</a>
+        <span class="title">Paragraph 2</span>
+        <span>Sit at vulputate at adipiscing suscipit, praesent consetetur invidunt elitr elitr ut consectetuer feugait, veniam ea et est sed, takimata consequat consequat clita ut sea sea ea, ut labore hendrerit et, diam vel sit takimata takimata diam justo eu, sed sadipscing lorem congue eum.</span>
+        <span>Et eos, dignissim duis sea duo consequat eos iriure dolor rebum, exerci aliquyam dolor nonummy magna diam sharpertutorials, dolor amet est tempor et vel dolores sed sit.</span>
+        <span>Aliquyam, sea lorem aliquyam hendrerit nonumy vel sanctus elitr, sed takimata imperdiet vero sit ut doming eos accusam, nonumy ea elitr qui lorem et amet dolore, duis dignissim takimata dolores nonumy vero et accusam dolore, exerci eirmod diam et erat, ipsum enim dolor sanctus clita.</span>
+        <span>Sea stet dolor accusam, ut dignissim tempor nonummy diam takimata elitr dolores vero, vulputate no at consetetur dolores duo at, elit nisl nostrud commodo.</span>
+        <span>Amet ipsum dolor kasd, nam eirmod autem vero amet iusto, amet iriure sed velit sed, tempor lobortis eirmod et lorem ad elitr clita, et accusam enim nostrud nostrud kasd, amet vel wisi eros eum nonumy, lorem justo aliquyam veniam et sadipscing invidunt.</span>
+    </p>
+    <p id="p-3">
+        <a name="p-3">Paragraph 3</a>
+        <span class="title">Paragraph 3</span>
+        <span>Feugait lorem et sit magna sadipscing, erat nam sit esse magna sit ut invidunt, ut et facer magna autem, rebum dolore et et ullamcorper assum diam vulputate, qui tempor invidunt tation, odio vero sea eros lorem commodo lorem vel, sadipscing exerci et labore nonumy et.</span>
+        <span>Rebum, feugiat labore hendrerit est takimata sed consetetur dolor placerat, ut nibh gubergren ut blandit accumsan est, dolores et consequat zzril com molestie kasd.</span>
+        <span>Nonumy aliquam feugait, feugiat dolor erat accusam in iriure sanctus amet, ut at ut eum illum eum ipsum eirmod eum, dolores dolor dolor velit sed magna magna sit, stet clita consequat eirmod stet exerci erat sanctus luptatum, assum amet lobortis exerci.</span>
+    </p>
+    <p id="p-4">
+        <a name="p-4">Paragraph 4</a>
+        <span class="title">Paragraph 4</span>
+        <span>Ea sanctus nonumy kasd ipsum ex, sanctus rebum ipsum lorem justo consequat vulputate justo, sed id vero elitr te, ut et elit sanctus liber hendrerit gubergren nulla, clita aliquyam sed imperdiet, aliquyam vero dolore no accusam erat sit ea, ipsum gubergren sadipscing.</span>
+        <span>Facilisis eirmod sed et, dolore minim eirmod wisi et kasd praesent kasd vel, tempor veniam et dolor voluptua invidunt accumsan, amet lorem labore stet et stet ea at sed, aliquyam sea erat magna invidunt accumsan gubergren ea.</span>
+    </p>
+    <p id="p-5">
+        <a name="p-5">Paragraph 5</a>
+        <span class="title">Paragraph 5</span>
+        <span>Dolore invidunt lorem labore sea odio, et odio stet dolore sed sea voluptua justo, ad erat vero autem iriure, elitr eos hendrerit amet in elit ipsum nibh, et in dolor elitr, et tincidunt luptatum amet nostrud consetetur justo vel.</span>
+        <span>Sadipscing, nam dolore augue erat ipsum ut, amet elit amet dolore no ad eos minim vero, magna kasd justo est et illum diam, lobortis eirmod nonummy sanctus.</span>
+        <span>Magna consetetur diam gubergren consetetur dolor, dignissim facer justo et ipsum dolores et dignissim, nonummy sadipscing consetetur feugiat ipsum iriure voluptua justo laoreet, rebum at aliquyam hendrerit sanctus facilisis dolor ut, elit sed et cum eos hendrerit dolor lorem accumsan, facilisis dolores sea diam illum dolor amet.</span>
+    </p>
+    <p id="p-6">
+        <a name="p-6">Paragraph 6</a>
+        <span class="title">Paragraph 6</span>
+        <span>Lorem ipsum dolor sit amet, sed eirmod sadipscing labore tation labore, dolore at veniam clita at, lorem accusam aliquyam invidunt, erat clita elitr aliquyam kasd, et magna sed tempor com erat ad at duo, magna autem duo gubergren labore.</span>
+        <span>Eleifend ullamcorper, diam ea et ipsum accusam, accumsan magna magna erat sed magna lorem, molestie sed dolor dolore ex dolore sit dolor lorem.</span>
+    </p>
+    <p id="p-7">
+        <a name="p-7">Paragraph 7</a>
+        <span class="title">Paragraph 7</span>
+        <span>Eum option duo euismod ex, kasd diam magna eirmod takimata nihil, ea sea vulputate ipsum lorem, iusto consectetuer sit diam, dolor.</span>
+        <span>Voluptua diam labore sit rebum, dolor vel duo dolor nobis accumsan erat et amet, eos diam stet eos dolor sed, esse.</span>
+        <span>Sadipscing no ut hendrerit te, eos sit duis sadipscing eos duo ex, nonummy aliquyam dolor voluptua sed ullamcorper magna dolore, kasd sed et at stet sadipscing, te ut minim elitr et nulla ut odio esse.</span>
+        <span>Quod, duis amet cum diam in, dignissim eos no iriure vel nonumy at iriure stet, zzril dolor congue ea magna sed rebum aliquam velit dolor.</span>
+    </p>
+    <p id="p-8">
+        <a name="p-8">Paragraph 8</a>
+        <span class="title">Paragraph 8</span>
+        <span>Est sadipscing et accusam amet, hendrerit sed feugait stet nam ut, lorem no kasd lorem est, aliquyam eum in in, magna gubergren dolore eirmod magna, rebum euismod vero amet accusam dolore eirmod autem dolore, gubergren et invidunt tempor assum eum, adipiscing nonumy consetetur clita accusam, dolor illum dolores no.</span>
+        <span>Magna sanctus lorem sanctus, erat diam sanctus ullamcorper tincidunt magna takimata gubergren, ipsum tempor no rebum vero iriure, autem vero voluptua ea erat no.</span>
+        <span>Ipsum kasd accumsan accusam, ea nisl et amet vulputate, accumsan dignissim nibh tempor nobis vero sea ea erat, soluta et zzril justo eum.</span>
+    </p>
+    <p id="p-9">
+        <a name="p-9">Paragraph 9</a>
+        <span class="title">Paragraph 9</span>
+        <span>Et et eum velit sanctus, at autem sadipscing lorem dolore ut, ipsum in erat commodo diam, lorem ipsum no dolore, no in magna at assum, sit sanctus eos justo quis accusam dolor nulla adipiscing, consequat invidunt cum esse euismod.</span>
+        <span>Et ipsum, eos takimata labore elitr commodo, est sed sadipscing ipsum lorem dolore diam, et duis velit accusam sadipscing iriure lorem eirmod, dolores et nisl kasd hendrerit sit, nulla ullamcorper commodo kasd rebum diam blandit tation.</span>
+    </p>
+    <p id="p-10">
+        <a name="p-10">Paragraph 10</a>
+        <span class="title">Paragraph 10</span>
+        <span>Velit molestie lorem nonumy dignissim, ea consetetur takimata no nisl placerat, labore labore ipsum lorem consetetur, praesent et eos labore, dolor voluptua.</span>
+        <span>Te euismod augue hendrerit, possim sadipscing dolor ut justo invidunt dolores zzril eu, diam vel est elitr erat feugait, tempor tempor magna wisi duis, sanctus autem lorem lobortis odio facilisis dignissim, lorem rebum amet.</span>
+        <span>Mazim nonumy voluptua consectetuer vel ut, consetetur vel amet stet labore lorem, sea rebum et odio consetetur magna justo dolor aliquip, stet lorem magna magna dolore, takimata eirmod clita adipiscing vel et dolor dolor diam, accusam ea kasd sit iriure eu hendrerit erat dolore sanctus facer.</span>
+    </p>
+    <p id="p-11">
+        <a name="p-11">Paragraph 11</a>
+        <span class="title">Paragraph 11</span>
+        <span>Lorem ipsum dolor sit amet rebum stet, accusam ut sanctus nisl feugiat et ipsum sed, et ut erat tation eos luptatum sit rebum, no voluptua duis dolores, sed est illum ea, eum sanctus dolor sanctus et dolore at duo est, in duis vel ex nobis elitr magna.</span>
+        <span>Duis duo ipsum, est elit tincidunt consequat labore vero ea, amet molestie id invidunt est eu sadipscing, dignissim voluptua rebum in clita veniam nonumy diam, zzril.</span>
+        <span>Eirmod stet gubergren lorem labore at kasd, et sed sadipscing rebum labore, voluptua at rebum justo, at dolore euismod dolore dolor sanctus dolor, aliquip consetetur ut.</span>
+        <span>Amet dolore erat sea, iriure erat nonummy option ea nulla gubergren, dolores stet vero consetetur dolor sit nobis suscipit, nonumy minim accusam enim elit, placerat feugait lobortis exerci.</span>
+    </p>
+    <p id="p-12">
+        <a name="p-12">Paragraph 12</a>
+        <span class="title">Paragraph 12</span>
+        <span>Sed est diam rebum sanctus dolore eleifend, erat minim amet et dolore sadipscing consectetuer est, congue ut sit amet sea et diam sea, ut no duo diam, sed hendrerit diam autem, eos ut lorem ut dolor ea sadipscing illum no, eos et magna doming ipsum molestie eos.</span>
+        <span>Stet tempor sed, luptatum tempor vero diam et molestie amet, nonumy ullamcorper et gubergren veniam at eu, sit dolor labore amet ipsum.</span>
+        <span>Facilisis et dolore ea, stet lorem no voluptua suscipit diam est, clita duis ea sadipscing dolore, magna at invidunt lorem, ipsum ut dolor rebum sea invidunt facilisis, takimata hendrerit nibh voluptua et.</span>
+        <span>Consequat augue, elit no ut dolor ea eos duo, ipsum sanctus et doming sanctus luptatum adipiscing delenit, sea est sea takimata labore, dolore dolor delenit dolor tempor eos sit vero, eos nostrud ipsum dolor et praesent et clita, dolor ut et accusam exerci ut eirmod ut lorem.</span>
+    </p>
+    <p id="p-13">
+        <a name="p-13">Paragraph 13</a>
+        <span class="title">Paragraph 13</span>
+        <span>Sit magna nam iriure dolor amet eum, justo hendrerit hendrerit et velit aliquyam kasd eirmod, at elitr nostrud sanctus sadipscing consetetur hendrerit vero, sea vero.</span>
+        <span>Et duis amet, ipsum dolore vulputate sea, et odio dolor facer gubergren nonummy euismod dolor ut, esse enim diam te eos elitr wisi sed eirmod, option dolor no sanctus dolor esse hendrerit.</span>
+    </p>
+    <p id="p-14">
+        <a name="p-14">Paragraph 14</a>
+        <span class="title">Paragraph 14</span>
+        <span>At sed eos tation nonumy aliquip duo, diam laoreet magna magna tempor at lorem vel, duis dolor lorem tempor gubergren dolore dolore labore, suscipit gubergren sanctus lorem, doming sit veniam liber, elitr accumsan quis sed gubergren ea eos zzril aliquyam, et lorem nihil nonummy.</span>
+        <span>Takimata consequat enim sit amet amet, erat sed iriure eos eros lorem elit, in accusam takimata dolores clita ea dolor, magna at vulputate lorem esse liber dolores gubergren, nonummy commodo et dolores iusto vel ea, laoreet diam tempor nonumy nam, odio sanctus eos eu, exerci at quis ullamcorper esse lorem.</span>
+        <span>Molestie ipsum, et sea sit accusam at tempor, volutpat eos sea nibh eirmod dolor duis, voluptua voluptua et et illum ex gubergren et, eos aliquyam duis dolor rebum, qui invidunt magna qui sea magna magna eum, aliquyam et ut nonumy dolore.</span>
+        <span>Option accusam at lorem, erat amet tempor nonumy at volutpat justo ad, sit volutpat takimata dolor ut autem zzril eu, aliquyam dolor invidunt sadipscing liber vel takimata.</span>
+    </p>
+    <p id="p-15">
+        <a name="p-15">Paragraph 15</a>
+        <span class="title">Paragraph 15</span>
+        <span>No ut dolore tincidunt ut et diam, elitr clita minim est magna amet vel nulla, sit eros vero eos labore ut justo.</span>
+        <span>Aliquip eum, amet dolores aliquyam consequat, in et invidunt lorem, voluptua justo iriure nostrud et gubergren at facilisi vel, justo est delenit suscipit dignissim erat dolores magna eos, at ea nonumy no rebum et com, vulputate ut duis stet amet.</span>
+    </p>
+</div>
+</body>
+</html>
